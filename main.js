@@ -12,12 +12,15 @@ proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro program
 //crea ciclo for per stampare i numeri da 1 a 100
 
 for(let i=1; i<=100;i++){
-    console.log(i);
+   
 
-    //ciclo if per i multipli di 3 stampare Fizz
-    if (i%3==0) {
-        console.log("Fizz");
-        
+    //if per i multipli di 3 stampare Fizz
+    if (i % 3 == 0) {
+        console.log("Fizz"); 
     }
-    
+    //if per i multipli di 5 stampare Buzz
+    else if(i % 5 == 0){
+        console.log("Buzz");
+    } else if
+     console.log(i);
 }
