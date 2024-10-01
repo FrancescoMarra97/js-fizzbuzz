@@ -13,5 +13,11 @@ proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro program
 
 for(let i=1; i<=100;i++){
     console.log(i);
+
+    //ciclo if per i multipli di 3 stampare Fizz
+    if (i%3==0) {
+        console.log("Fizz");
+        
+    }
     
 }
