@@ -21,6 +21,11 @@ for(let i=1; i<=100;i++){
     //if per i multipli di 5 stampare Buzz
     else if(i % 5 == 0){
         console.log("Buzz");
-    } else if
+    } 
+    // else if per i multipli di 3 e 5 stampare FizzBuzz
+    else if(i % 3 == 0 && i % 5 == 0){
+        console.log("FizzBuzz");
+        
+    }
      console.log(i);
 }
